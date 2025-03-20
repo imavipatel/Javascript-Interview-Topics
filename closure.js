@@ -25,5 +25,9 @@ function outerFunction(){
 
 let lowerGlobalVariable = 'I am lower global variable'
 
-const outputFunction = outerFunction()
 outerFunction()
+
+/*
+Use of Closure==>
+1. Data Privacy and Encapsulation
+*/
