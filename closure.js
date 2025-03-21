@@ -100,7 +100,7 @@ function multiply(a){
 
 const double = multiply(2)
 console.log(double(5))
-console.log();
+console.log(double(10));
 
 /*
 5. Event Handlers: Closures are often used in event handlers to 
