@@ -4,6 +4,7 @@
 * Working of JS & JS Engine
     * How JS is parsed and executed
     * Memory allocation & garbage collection
+    * Types of garbage collection/ Memory Leaks
     * Event loop basics, JS single-threaded nature
 * Execution Context & Global Object
     * Global vs function execution context
@@ -67,6 +68,7 @@
     * Additional: Object.keys, Object.values, Object.entries, Object.hasOwnProperty
 * Collections
     * Map / WeakMap
+    * Implement Least Recently Used ( LRU ) Cache
     * Set / WeakSet
     * Optional Chaining ?.
 
@@ -88,6 +90,7 @@
 * Lexical vs Dynamic Scope
 * this keyword (global / function / arrow / class)
 * Difference: call vs apply vs bind
+* Implicit and Explicit Binding
 * Shortest JS program & window
 * Additional Topics
     * new.target
@@ -103,8 +106,10 @@
 * First Class & Higher-Order Functions
 * Callback Functions
 * Closures & Uses
-* Currying
+* Currying and Infinite Currying
 * Functional Programming Concepts
+* Caching Functions
+* Generator Functions
 * Additional Topics
     * Arguments object
     * Rest & Spread in function parameters
@@ -121,6 +126,7 @@
 * Promise in sequence
 * Cancelable Promise
 * Retry Promise N times
+* Compose Polyfills
 * Polyfills (call, apply, bind, map, reduce, filter, forEach, Promise, all, allSettled, race, any, flat, fetch)
 * Async/Await
 * Compare: Callbacks vs Promises vs Async/Await
@@ -138,6 +144,7 @@
 * event.stopPropagation vs preventDefault
 * Custom Events
 * MutationObserver, IntersectionObserver
+* Observer Pattern
 * Critical Rendering Path
 * script loading: async / defer
 * Web APIs (Fetch, Navigator, etc.)
@@ -176,6 +183,7 @@
 📚 10. Bonus: System Design & Optimization Concepts
 * Polyfill grouping (e.g., Lodash)
 * Performance optimization in JS
+* Lazy Loading
 * Code splitting & tree shaking
 * Event-Driven Architecture Basics
 * Additional Topics
@@ -184,5 +192,7 @@
     * Lazy evaluation & caching strategies
     * Optimizing loops & DOM manipulations
     * Webpack / Rollup / Vite optimization overview
+    * Design Patterns in JavaScript (Singleton, Factory, Observer, etc.)
+    
 
 */
