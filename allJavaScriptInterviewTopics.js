@@ -59,6 +59,8 @@
     * Destructuring assignment
     * Spread & Rest Operators for arrays
     * Additional: Array.isArray, find, findIndex, sort, reverse, join
+    * Bit manipulation intro – find max element from array using ES5
+    * var a = [1,2,3,4,5][0,1,2,3,4] output?
 * Objects
     * Object.freeze, Object.seal, Object.assign
     * Deep Freeze Object
@@ -68,7 +70,9 @@
     * Additional: Object.keys, Object.values, Object.entries, Object.hasOwnProperty
 * Collections
     * Map / WeakMap
+    * mapLimit() concurrency
     * Implement Least Recently Used ( LRU ) Cache
+    * Streaming tasks with mapLimit (stream of data every 1 sec) + prioritization
     * Set / WeakSet
     * Optional Chaining ?.
 
@@ -117,23 +121,29 @@
     * Pure vs Impure functions
     * Function properties (length, name)
     * Function hoisting nuances
+    * function to measure the performance of a given function
 
 🔄 7. Asynchronous JavaScript
 * setTimeout, setInterval, clearTimeout
 * Event Loop, Microtasks, Macrotasks
 * Callback Hell & Pyramid of Doom
 * Promises & Promise Chaining
+* Implement your own Promise
+* Implement final() for Promise
+* resolve async promises sequentially using recursion
 * Promise in sequence
 * Cancelable Promise
 * Retry Promise N times
 * Compose Polyfills
 * Polyfills (call, apply, bind, map, reduce, filter, forEach, Promise, all, allSettled, race, any, flat, fetch)
+* JSON.parse() polyfill
 * Async/Await
 * Compare: Callbacks vs Promises vs Async/Await
 * Debouncing & Throttling
 * Additional Topics
     * Error handling in async code (try/catch/finally with async/await)
     * Promise.allSettled vs Promise.all
+    * Difference between Promise.resolve() & Promise.reject()
     * async generators (for-await-of)
     * Queue management / task scheduling
 
@@ -149,7 +159,10 @@
 * script loading: async / defer
 * Web APIs (Fetch, Navigator, etc.)
 * XHR vs Fetch vs Axios
+* HTTP vs HTTPS
 * LocalStorage vs SessionStorage
+* Cookies vs SessionStorage vs LocalStorage
+* TTL & cookie expiry basics
 * Events: DOMContentLoaded, load, beforeunload, unload
 * Service Workers & Cache (basics)
 * Shadow DOM (basics)
@@ -168,6 +181,7 @@
 * Error Handling (try/catch/finally, custom errors)
 * Pipe & Compose functions
 * Memoisation & Caching
+* Advanced memoization + caching strategies
 * Generator Functions
 * Execute Tasks in Parallel
 * Web Workers (avoid memory leaks)
