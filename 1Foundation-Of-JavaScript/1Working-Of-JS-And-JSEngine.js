@@ -16,7 +16,8 @@ This file contains theory + examples for:
 1) JavaScript & JS Engine
 -----------------------------------------------------------
 - JavaScript is a high-level, interpreted, single-threaded language. 
-- But "interpreted" is not fully correct today → modern engines (V8, SpiderMonkey, JavaScriptCore) actually "compile" JS into efficient machine code.
+- But "interpreted" is not fully correct today → modern engines (V8, SpiderMonkey, JavaScriptCore) 
+actually "compile" JS into efficient machine code.
 
 🔹 How a JS Engine works (Simplified Pipeline):
 1) Tokenization → Breaks source code into tokens (keywords, identifiers, operators).
