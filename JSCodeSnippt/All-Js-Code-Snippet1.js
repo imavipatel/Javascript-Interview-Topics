@@ -1193,3 +1193,12 @@ console.log(c8);
 var a8 = 10;
 let b8 = 20;
 const c8 = 30;
+
+console.log("Qusn 64===>");
+
+let a = 10;
+function test() {
+  console.log(a);
+  let a = 30;
+}
+test();
