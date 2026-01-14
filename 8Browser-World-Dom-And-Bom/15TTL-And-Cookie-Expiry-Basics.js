@@ -15,7 +15,7 @@
 // -----------------------------------------------------------------------------
 // 1) Cookie Expiry with "expires"
 // -----------------------------------------------------------------------------
-// You can set a cookie with an expiry date/time.
+// You can set a cookie with an expiry date/tie.
 
 document.cookie = "user=Avi; expires=Fri, 31 Dec 2025 23:59:59 GMT; path=/";
 console.log(document.cookie); // "user=Avi"

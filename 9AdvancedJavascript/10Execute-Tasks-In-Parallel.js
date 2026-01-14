@@ -15,7 +15,8 @@
 // ============================================================================
 // - Parallel execution means **running multiple asynchronous tasks simultaneously**.
 // - This is faster than running them **sequentially**.
-// - JavaScript is single-threaded, but async tasks (like fetch or setTimeout) are handled in **background threads** (Web APIs) and results are returned via the **event loop**.
+// - JavaScript is single-threaded, but async tasks (like fetch or setTimeout)
+// are handled in **background threads** (Web APIs) and results are returned via the **event loop**.
 
 // Example: Sequential vs Parallel
 async function sequentialTasks() {

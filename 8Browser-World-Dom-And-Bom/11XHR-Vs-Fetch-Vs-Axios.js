@@ -67,13 +67,14 @@ getData();
 //
 // (Need to install: npm install axios)
 //
-/*
+// /*
 import axios from "axios";
 
-axios.get("https://jsonplaceholder.typicode.com/posts/1")
+axios
+  .get("https://jsonplaceholder.typicode.com/posts/1")
   .then((res) => console.log("✅ Axios Response:", res.data))
   .catch((err) => console.log("❌ Axios Error:", err));
-*/
+// */
 
 // ============================================================================
 // 4) Comparison

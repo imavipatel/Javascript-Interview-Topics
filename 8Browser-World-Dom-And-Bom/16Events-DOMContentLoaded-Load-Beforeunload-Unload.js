@@ -4,7 +4,7 @@
 //
 // 📝 Theory
 // ----------
-// These are special browser lifecycle events that tell us what stage the page is in.
+// These are special browser lifecycle events that tell\\\\\\\ us what stage the page is in.
 //
 // 1) DOMContentLoaded → Fires when HTML is fully parsed,
 //    but images, styles, and sub-resources may NOT be loaded yet.
